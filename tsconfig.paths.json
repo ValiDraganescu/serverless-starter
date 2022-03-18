@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@api/api-interface": [
+        "./src/api-interface"
+      ],
+      "@api/api": [
+        "./src/api"
+      ]
+    }
+  }
+}

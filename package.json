@@ -1,0 +1,35 @@
+{
+  "name": "api-name",
+  "version": "1.0.0",
+  "description": "Serverless aws-nodejs-typescript template",
+  "main": "serverless.ts",
+  "scripts": {
+    "offline": "./node_modules/.bin/serverless offline",
+    "deploy": "./node_modules/.bin/serverless deploy",
+    "remove": "./node_modules/.bin/serverless remove"
+  },
+  "engines": {
+    "node": ">=14.15.0"
+  },
+  "dependencies": {
+    "@xtool/logger": "0.12.0",
+    "axios": "0.26.1",
+    "reflect-metadata": "0.1.13",
+    "typescript-openapi-router": "3.0.13"
+  },
+  "devDependencies": {
+    "@serverless/typescript": "3.7.5",
+    "@types/aws-lambda": "8.10.93",
+    "@types/node": "^14.14.25",
+    "dotenv": "^16.0.0",
+    "esbuild": "0.14.27",
+    "serverless": "3.7.6",
+    "serverless-esbuild": "1.26.1",
+    "serverless-offline": "8.5.0",
+    "ts-node": "10.7.0",
+    "tsconfig-paths": "3.14.0",
+    "typescript": "4.6.2"
+  },
+  "author": "Valentin Draganescu",
+  "license": "MIT"
+}
